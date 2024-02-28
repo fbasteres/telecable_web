@@ -12,7 +12,7 @@
         <h6>#ConectandoOportunidades</h6>
         <h1 >El sitio web está en construcción.</h1>
         <p >Estamos trabajando para mejorar nuestros servicios</p>
-        <div class="pt-5">
+        <div class="pt-3">
             <a href="https://www.facebook.com/telecableperu" target="blank">
                 <button type="button" class="btn_tc tc_primary">Mas información</button>
             </a>
