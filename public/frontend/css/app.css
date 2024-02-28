@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'opensans';
+    src: url('../font/open_sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+:root{
+    --tc-primary-color: #0066FF;
+    --tc-primary-hover: #0657d1;
+}
+
+body{
+    font-family: 'opensans';
+}
+/*nav inicio */
+.nav_content {
+    height: 5rem;
+    background: var(--tc-primary-color);
+}
+.nav_content .nav_items h6{
+    margin: 0;
+    padding: 0;
+    color: var(--bs-white);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.nav_content .nav_items .logo_telecable{
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    height: 2.4rem;
+}
+/*nav Fin */
+/* Mantenimiento */
+.main_content{
+    display: flex;
+    height: 90%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.main_content .content__mantenimiento{
+    align-items: center;
+    justify-content: center;
+}
+.main_content .content__mantenimiento .content__mantenimiento_text h6{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--tc-primary-color);
+}
+.main_content .content__mantenimiento .content__mantenimiento_text h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.main_content .content__mantenimiento .content__mantenimiento_text p{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.main_content .content__mantenimiento .img_mant{
+    height: 30rem;
+}
+/*Fin mantenimiento */
+
+/* botones */
+.btn_tc{
+    border: 0;
+    height: 2.4rem;
+    width: 13.3rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: .4rem;
+}
+.tc_primary{
+    color: var(--bs-white);
+    background: var(--tc-primary-color);
+}
+.tc_primary:hover{
+    color: var(--bs-white);
+    background: var(--tc-primary-hover);
+}
+/* Fin Botones */
