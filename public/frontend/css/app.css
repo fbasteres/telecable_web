@@ -11,30 +11,33 @@ body{
     font-family: 'opensans';
 }
 /*nav inicio */
-.nav_content {
-    height: 4rem;
-    background: var(--tc-primary-color);
+
+
+.navbar-one{
+    background: var(--bs-gray-200);
 }
-.nav_content .nav_items h6{
-    display: none;
+.navbar-one .navbar-one_content{
+    height: 2.3rem;
+    align-items: center;
+    display: flex;
 }
-@media (min-width: 1000px) {
-    .nav_content .nav_items h6{
-        margin: 0;
-        padding: 0;
-        color: var(--bs-white);
-        font-weight: 600;
-        font-size: 1.1rem;
-        display: block;
-    }
-  }
-.nav_content .nav_items .logo_telecable{
+
+.navbar-one .navbar-one_content h6{
     margin: 0;
-    padding: 0;
-    padding-left: 0;
-    height: 2.4rem;
+    font-size: .8rem;
+}
+
+.navbar-one .navbar-one_content p{
+    margin: 0;
+    margin-left: auto;
+    font-size: .9rem;
+}
+.navbar-one .navbar-one_content h6:hover{
+    color: var(--tc-primary-color);
 }
 /*nav Fin */
+
+
 /* Mantenimiento */
 .main_content{
     display: flex;

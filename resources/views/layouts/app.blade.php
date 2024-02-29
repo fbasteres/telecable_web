@@ -1,5 +1,5 @@
 <body>
-    @include ('layouts.components.navbar')
+    @include ('layouts.components.navbar_2')
     <main>
         <div>
             @yield('content')
