@@ -14,7 +14,7 @@ body{
 
 
 .navbar-one{
-    background: var(--bs-gray-200);
+    background: var(--bs-gray-100);
 }
 .navbar-one .navbar-one_content{
     height: 2.3rem;
