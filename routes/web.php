@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SupportController;
+use App\Http\Controllers\Home\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +19,5 @@ use App\Http\Controllers\SupportController;
     return view('welcome');
 });
 */
-Route::get('/',[SupportController::class, 'index'])-> name ('mantenimiento');
+/*Route::get('/',[SupportController::class, 'index'])-> name ('mantenimiento');*/
+Route::get('/',[HomeController::class, 'index'])-> name ('inicio');
